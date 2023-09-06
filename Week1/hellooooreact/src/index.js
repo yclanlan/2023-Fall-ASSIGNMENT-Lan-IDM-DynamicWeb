@@ -29,6 +29,7 @@ function App(){
 
   return (
     <>
+    {/* ---------- recipe ---------- */}
     <h1> Fried Garlic Water Spinach </h1>
     <img src="https://img.soundofhope.org/2020-07/88-1596049315262.jpg"
     style={{ width:'50%'}}></img>
@@ -75,6 +76,7 @@ function App(){
 
       <button disable={false} style={{color:'red'}}> Click Me </button>
       <input type="number" min={5} />
+      <br/><br/><br/><br/><br/><br/>
 
 
 
