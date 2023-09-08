@@ -16,9 +16,9 @@ function App(){
   let flip = Math.random()
   let coin ='tail'
   if (flip>0.5){
-    coin='head'
+    coin='heads'
   }else{
-    coin='tail'
+    coin='tails'
   }
 
   const arr=[1,1,3];
@@ -63,9 +63,7 @@ function App(){
       <p> flip: {flip}</p>
       <p> Coins flip: <b>{coin}</b></p>
       <p> Coins flip by short hand: 
-        <b>{
-        Math.random()>0.5 ? 'heads' : 'tails'
-        }</b>
+        <b>{  Math.random()>0.5 ? 'heads' : 'tails' }</b>
       </p>
 
       <hr/>
