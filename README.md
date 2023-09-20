@@ -1,7 +1,22 @@
 # IDM-DynamicWeb 23
 
+" Week _Code " folders are for updating my code and make it can read on github!
+
+Also following links are host on netfily.
+
+Week1 website:
+https://dynamic-web-week1-jsx-practice.netlify.app/
+
+Week2 website:
+https://dynamic-web-week2-react-practice.netlify.app/
+
+
+<hr>
 
  ### **note for myself**
  
  to run locally, type in terminal: npm start  <br>
- Also other ways in the comment in index.html
+ to build it, type :npm run build, and upload whole "build" file to netlify.
+
+ 
+ 
