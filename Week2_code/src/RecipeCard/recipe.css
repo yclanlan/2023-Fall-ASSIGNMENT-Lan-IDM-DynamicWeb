@@ -1,0 +1,267 @@
+@media (max-width: 1340px) {
+    
+        .card{
+            width:80%;
+            background: #000;
+            color:white;
+            display: table;
+            margin: auto;
+            padding:1.5rem;
+            gap: 1.5rem;
+
+        }
+
+        h3{
+            margin:0 0 0 0;
+        }
+
+        .img{
+
+            display: flex;
+            width: 100%;
+            height: auto;
+            align-items: flex-start;
+            gap: 10px;
+            flex-shrink: 0;
+            object-fit: cover;
+
+        }
+
+        .classInfo{
+            
+            padding: 10px;
+            gap: 12px;
+            
+        }
+
+        .layout{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            align-self: stretch;
+            background: #000000;
+
+        }
+
+        .content {
+
+            display: flex;
+            align-items: flex-start;
+            gap: 0.625rem;
+            align-self: stretch;
+            background: #FEFFCA;
+
+        }
+
+        /* .content>* {} */
+
+
+        .IngredientsList{
+            display: flex;
+            padding: 0.75rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.75rem;
+            align-self: stretch;
+            background: #ECECEC;
+        }
+
+        .IngredientsTitle{
+
+            display: flex;
+            padding: 0.25rem 0.75rem;
+            align-items: flex-start;
+            gap: 0.625rem;
+            border-radius: 0.75rem;
+            background: #99D148;
+
+        }
+
+        .IngredientsContent{
+            color: #000;
+            /* paragraph */
+            font-family: Inter;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.65rem; /* 165% */
+        }
+
+
+
+
+        .InstructionsList{
+
+            display: flex;
+            padding: 0.75rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.75rem;
+            flex: 1 0 0;
+            align-self: stretch;
+
+        }
+
+        .InstructionsTitle{
+            display: flex;
+            padding: 0.25rem 0.75rem;
+            align-items: flex-start;
+            gap: 0.625rem;
+            border-radius: 0.75rem;
+            background: #99D148;
+        }
+
+        .InstructionsContent{
+            
+            color: #000;
+            /* paragraph */
+            font-family: Inter;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.65rem; /* 165% */
+        }
+}
+
+
+
+/* bigger than 1340px */
+
+@media (min-width: 1340px) {
+
+.card{
+    
+    display: flex;
+    height: 46.5625rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    background: #000;
+    color:white;
+
+
+}
+
+h3{
+    margin:0 0 0 0;
+}
+
+.img{
+
+    width: 45.6875rem;
+    align-self: stretch;
+    border-radius: 0.75rem;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+    
+
+}
+
+.classInfo{
+    
+    padding: 10px;
+    gap: 12px;
+    
+}
+
+.layout{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: #000000;
+
+}
+
+.content {
+
+    display: flex;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: #FEFFCA;
+
+}
+
+
+
+.IngredientsList{
+
+    display: flex;
+    padding: 0.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    align-self: stretch;
+    background: #ECECEC;
+
+}
+
+.IngredientsTitle{
+
+    display: flex;
+    padding: 0.25rem 0.75rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 0.75rem;
+    background: #99D148;
+
+}
+
+.IngredientsContent{
+    color: #000;
+    /* paragraph */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.4px; /* 165% */
+}
+
+
+
+
+
+
+.InstructionsList{
+
+    display: flex;
+    padding: 0.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    flex: 1 0 0;
+    align-self: stretch;
+
+}
+
+.InstructionsTitle{
+    display: flex;
+    padding: 0.25rem 0.75rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 0.75rem;
+    background: #99D148;
+}
+
+.InstructionsContent{
+    color: #000;
+    /* paragraph */
+    align-self: stretch;
+    
+    /* paragraph */
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.65rem; /* 165% */
+}
+}
