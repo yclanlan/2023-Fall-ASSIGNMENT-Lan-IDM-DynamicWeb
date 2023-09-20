@@ -5,7 +5,7 @@ import RecipeImg from './RecipeImg'
 import IngredientsList from './IngredientsList'
 import InstructionsList from './InstructionsList'
 import Card from './Card'
-import './styles.css'
+import styles from './RecipeCard.module.css'
 
 // HW: Apply CSS styling, dont forget to import the style sheet in the other component files!
 // Figma designs here: https://www.figma.com/file/oPToKD0BEwCUQFt3OjCDw6/RecipeCardStarter?node-id=2%3A134&mode=dev
