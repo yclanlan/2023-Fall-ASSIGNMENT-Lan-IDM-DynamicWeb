@@ -16,8 +16,9 @@ My blog link: https://yichunlan.com/Dynamic-Web-week-list
 
  ### **note for myself**
  
- to create the app: create-react-app (app's name) <br>
- to run locally, type in terminal: npm start  <br>
- to build it, type :npm run build, and upload whole "build" file to netlify.
+ 1.to create the app, type in terminal
+ : npx create-react-app (app's name) <br>
+ 2.to run locally,  npm start  <br>
+ 3.to build it, type :npm run build, and upload whole "build" file to netlify.
  
  
