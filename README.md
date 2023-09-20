@@ -1,8 +1,7 @@
 # IDM-DynamicWeb 23
 
-Code_Week00  folders are for updating my code and make it can read on github!
-
-Following links are preview webpage host on netfily.
+'Code_Week00' folders are for updating my code and making it can be read on Git Hub! 
+The following links are preview webpage hosts on Netlify.
 
 -Week1 website:
 https://dynamic-web-week1-jsx-practice.netlify.app/
@@ -10,7 +9,7 @@ https://dynamic-web-week1-jsx-practice.netlify.app/
 -Week2 website:
 https://dynamic-web-week2-react-practice.netlify.app/
 
-
+My blog link: https://yichunlan.com/Dynamic-Web-week-list
 <hr>
 
  ### **note for myself**
