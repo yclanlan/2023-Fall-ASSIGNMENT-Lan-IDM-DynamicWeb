@@ -9,6 +9,9 @@ https://dynamic-web-week1-jsx-practice.netlify.app/
 Week2 website:
 https://dynamic-web-week2-react-practice.netlify.app/
 
+Week3 website:
+https://dynamic-web-week3-recipe-practice.netlify.app/
+
 <br><br>
 
 My blog link: https://yichunlan.com/Dynamic-Web-week-list
