@@ -27,18 +27,19 @@ My blog link: https://yichunlan.com/Dynamic-Web-week-list
  2.to run locally,  npm start  <br>
  3.to build it, type :npm run build, and upload whole "build" file to netlify.
  
+ <hr>
 
 more notes:
 
-https://www.npmjs.com/package/prop-types
+❶https://www.npmjs.com/package/prop-types
 
 npm install --save prop-types
 
-https://www.npmjs.com/package/classnames
+❷https://www.npmjs.com/package/classnames
 
 npm install classnames
 
-https://tailwindcss.com/docs/guides/create-react-app
+❸https://tailwindcss.com/docs/guides/create-react-app
 
 npm install -D tailwindcss
 
@@ -46,9 +47,13 @@ npx tailwindcss init
 
 -> tailwind.config.js
 
-https://www.npmjs.com/package/tailwind-merge 
+❹https://www.npmjs.com/package/tailwind-merge 
 
 npm i tailwind-merge
+
+❺https://www.npmjs.com/package/react-icons 
+
+npm install react-icons --save
 
 
  
