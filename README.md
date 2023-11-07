@@ -12,7 +12,7 @@ https://dynamic-web-week2-react-practice.netlify.app/
 Week3 website:
 https://dynamic-web-week3-recipe-practice.netlify.app/
 
-Midterm website:
+Week6 - Midterm website:
 https://lan-todolist.netlify.app/
 
 <br><br>
