@@ -55,5 +55,8 @@ npm i tailwind-merge
 
 npm install react-icons --save
 
+❻https://www.w3schools.com/react/react_router.asp
+
+npm i -D react-router-dom
 
  
