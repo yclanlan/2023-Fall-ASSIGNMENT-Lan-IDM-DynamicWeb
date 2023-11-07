@@ -23,7 +23,7 @@ button:
 https://lan-button-practice.netlify.app/button
 
 route:
-https://app.netlify.com/sites/lanlan-coffeeshop/overview
+https://lanlan-coffeeshop.netlify.app/
 
 
 <br><br>
