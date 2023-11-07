@@ -11,3 +11,6 @@ npx tailwindcss init
 https://www.npmjs.com/package/tailwind-merge 
 npm i tailwind-merge
 
+https://www.npmjs.com/package/react-icons 
+npm install react-icons --save
+
