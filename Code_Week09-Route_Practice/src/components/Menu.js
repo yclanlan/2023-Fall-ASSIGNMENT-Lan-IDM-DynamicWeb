@@ -1,24 +1,8 @@
 import cx from 'classnames'
 import {twMerge} from 'tailwind-merge'
 
-Button.propTypes = {
-  checkVariationValue: ({primary, secondary, success, warning, danger}) => {
-    const count =
-      Number(!!primary) +
-      Number(!!secondary) +
-      Number(!!success) +
-      Number(!!warning) +
-      Number(!!danger)
 
-    if (count > 1) {
-      return new Error(
-        ' Only one of primary,secondary, success, warning or danger can be true'
-      )
-    }
-  },
-}
-
-export default function Button({
+export default function Menu({
   children,
   primary,
   secondary,
@@ -27,8 +11,8 @@ export default function Button({
   danger,
   outline,
   rounded,
-  ...otherProps}) 
-  {
+  ...otherProps
+}) {
   const classes = twMerge(
     cx(otherProps.className, 
       'flex items-center px-8 py-3 border', 
@@ -36,7 +20,7 @@ export default function Button({
       'border-blue-500 bg-blue-600 text-white': primary,
       'border-gray-900 bg-gray-800 text-white': secondary,
       'border-green-500 bg-green-600 text-white': success,
-      'bg-orange-400 bg-orange-500 text-white': warning,
+      'border-orange-400 bg-orange-500 text-white': warning,
       'border-red-600 bg-red-700 text-white': danger,
 
       // rounded
@@ -53,9 +37,8 @@ export default function Button({
   )
 
   return (
-    <button {...otherProps} className={classes}>
+    <div {...otherProps} className={classes}>
       {children}
-    </button>
-    
+    </div>
   )
 }

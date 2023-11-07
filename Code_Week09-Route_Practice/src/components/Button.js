@@ -27,8 +27,8 @@ export default function Button({
   danger,
   outline,
   rounded,
-  ...otherProps}) 
-  {
+  ...otherProps
+}) {
   const classes = twMerge(
     cx(otherProps.className, 
       'flex items-center px-8 py-3 border', 
@@ -56,6 +56,5 @@ export default function Button({
     <button {...otherProps} className={classes}>
       {children}
     </button>
-    
   )
 }
