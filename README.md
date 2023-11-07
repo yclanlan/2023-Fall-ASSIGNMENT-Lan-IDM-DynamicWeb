@@ -15,6 +15,15 @@ https://dynamic-web-week3-recipe-practice.netlify.app/
 Week6 - Midterm website:
 https://lan-todolist.netlify.app/
 
+Week9 website:
+
+button:
+https://lan-button-practice.netlify.app/button
+
+route:
+https://app.netlify.com/sites/lanlan-coffeeshop/overview
+
+
 <br><br>
 
 My blog link: https://yichunlan.com/Dynamic-Web-week-list
