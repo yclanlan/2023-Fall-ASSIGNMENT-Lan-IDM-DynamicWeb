@@ -6,6 +6,53 @@ import {MdFlutterDash} from 'react-icons/md'
 export default function App() {
   return (
     <>
+
+
+{/* <div style={{ display:"flex" , gap: "10px" }} > */}
+<div className=" container mx-auto grid grid-cols-6 gap-4 mt-4" >
+
+        <Link to="/button">
+          <Button primary rounded outline >
+           <MdFlutterDash /> Go to Button Page
+          </Button>
+          
+        </Link>
+
+        <Link to="/accordion">
+          <Button primary rounded outline >
+          Go to Accordion Page
+          </Button>
+          
+        </Link>
+
+      </div>
+      <br/> 
+      <Button primary rounded outline >
+        
+        Buy Now
+      </Button>
+
+
+
+
+      <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> 
+      <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div className='ml-4'>
       <br/>
 
@@ -146,27 +193,7 @@ export default function App() {
 
 
 
-        <div style={{ display:"flex" , gap: "10px" }} >
-        <Link to="/button">
-          <Button primary rounded outline >
-           <MdFlutterDash /> Go to Button Page
-          </Button>
-          
-        </Link>
 
-        <Link to="/accordion">
-          <Button primary rounded outline >
-          Go to Accordion Page
-          </Button>
-          
-        </Link>
-
-      </div>
-      <br/> 
-      <Button primary rounded outline >
-        
-        Buy Now
-      </Button>
 
       {/* App Page Routes Coming SOON */}
     </div>
