@@ -70,15 +70,13 @@ npm install react-icons --save
 
 npm i -D react-router-dom
 
-❼ styleguidis
+❼ Style guides
 
 npm install --save-dev react-styleguidist
 
 npx styleguidist server
 
-or put "guide": "npx styleguidist server" in to package.json, so we can type
-
-npm run guide
+or put "guide": "npx styleguidist server" in to package.json, so we can type " npm run guide"
 
 
  
