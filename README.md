@@ -24,6 +24,7 @@ https://lan-button-practice.netlify.app/button
 
 route:
 https://lanlan-coffeeshop.netlify.app/
+(Content inspired from my friend Tuan's project! )
 
 
 <br><br>
