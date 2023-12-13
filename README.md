@@ -20,11 +20,16 @@ https://lan-todolist.netlify.app/
 Week9 website:
 
 button:
-https://lan-button-practice.netlify.app/button
+https://lan-button-practice.netlify.app/
+
 
 route:
 https://lanlan-coffeeshop.netlify.app/
 (Content inspired from my friend Tuan's project! )
+
+Week14 Final-react+fiber:
+
+https://lans-bar.netlify.app/
 
 
 <br><br>
