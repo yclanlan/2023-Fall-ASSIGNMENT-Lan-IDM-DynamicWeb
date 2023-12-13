@@ -1,0 +1,77 @@
+html{
+  
+  background:#000000;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+body {
+  /* Reseting the default here */
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
+
+  font-family: Cormorant Garamond, cursive; 
+  color:white;
+  
+}
+
+#article_wrapper {
+  /* position: relative; */
+  
+  height: 8000px; /* Length of the interactive scroll article */
+  z-index: 4;
+}
+
+#canvas_wrapper {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 4;
+}
+
+.scroll_slide {
+  color: "white";
+  position: "absolute";
+  width: "50vw";
+  padding-left: "20px";
+  z-index: "5";
+}
+
+
+
+h4{
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+p{
+  font-size: 1rem;
+}
+
+a {
+  color: rgb(255, 236, 239);
+  text-decoration: none;
+  z-index: 50;
+}
+
+a:visited {
+  color: rgb(255, 236, 239);
+  text-decoration: none;
+  z-index: 50;
+}
+
+.hover{
+  transition: all .15s ease;
+  background-color: black;
+  color:white;
+}
+
+.hover:hover{
+  background-color: #ffffff;
+  color:black;
+  scale: 1;
+}
